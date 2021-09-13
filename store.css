@@ -1,0 +1,44 @@
+body {
+    margin: 15px 70px;
+}
+
+.menu, .cart {
+    display: inline-block;
+    width:100%;
+}
+
+
+
+.product-box{
+    margin-top:50px;
+}
+.cart{
+    text-align: right;
+}
+
+
+.product {
+    height:300px;
+    width: 300px;
+    display: inline-block;
+ margin-bottom: 5px;
+}
+
+.product-image {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.product-name {
+    text-align: center;
+}
+.product-price {
+ text-align: center;
+}
+
+.product-image img {
+    height: 200px;
+    width: 300px;
+}
+

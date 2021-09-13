@@ -1,0 +1,47 @@
+.header2{
+    background-color:#949E87;
+      font-size: 16px;
+    color:black;
+    font-style:bold;
+}
+.pager1{
+   background-color:#949E87; 
+}
+input[type=text]{
+    width: 100%;
+    border: 2px solid #ccc;
+}
+input[type=email]{
+    width: 100%;
+    padding: 2px 10px;
+    border: 2px solid #ccc;
+}
+input[type=password]{
+    width: 100%;
+    padding: 2px 10px;
+    border: 2px solid #ccc;
+}
+input[type=date]{
+    width: 100%;
+    padding: 2px 10px;
+    border: 2px solid #ccc;
+}
+input[type=number]{
+    width: 100%;
+    padding: 2px 10px;
+    border: 2px solid #ccc;
+}
+   
+textarea{
+   width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.pager{
+    margin-right:0px;
+    margin-left:0px;
+}

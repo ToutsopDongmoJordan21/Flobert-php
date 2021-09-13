@@ -1,0 +1,30 @@
+.pager1{
+	background-color:;
+}	
+	.header3{
+						background-color:;
+						color:black;
+			    font-style:bold;
+					}
+					input[type=text]{
+						width:100%;
+						 padding: 5px 15px;
+			    border-radius: 2px solid #ccc;
+			    border: 1px solid black ;
+					}
+
+					input[type=email]{
+						width:100%;
+						 padding: 5px 15px;
+			    border-radius: 2px solid #ccc;
+			    border: 1px solid black ;
+
+					}
+					input[type=password]{
+						width:100%;
+						 padding: 5px 15px;
+			    border-radius: 2px solid #ccc;
+			    border: 1px solid black ;
+
+					}
+			

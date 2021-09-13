@@ -1,0 +1,18 @@
+input[type=number]{
+      width: 100%;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+}
+
+input[type=Date]{
+    width: 100%;
+    padding:10px;
+    border: 2px solid #ccc;
+}
+.pagerS{
+	background-color: #78B8E8;
+}
+.sle{
+	background-color: #78B8E8;
+	font-style:bold;
+}

@@ -1,0 +1,19 @@
+input[type=number]{
+      width: 100%;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+}
+input[type=text]{
+    width: 100%;
+    padding:5px;
+    border: 2px solid #ccc;
+}
+.pager2{
+    background-color:#00DBC9;
+}
+.addToCart{
+    background-color:#00DBC9;
+    font-size: 16px;
+    color:black;
+    font-style:bold;
+}

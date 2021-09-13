@@ -1,0 +1,123 @@
+.header{
+text-align: center;
+    background-color:green; 
+    text-shadow: 2px 5px white;
+    font-weight: bold;
+}
+
+
+.a, a:active, a:visited{
+    color:blue;
+    text-decoration: bold;
+}
+.contact{
+     background:#D8A355;
+  padding:15px 15px;
+  font-size:15px;
+  margin-top:20px;
+}
+.contact-1{
+     padding:5px 5px;
+  background:#002E5B;
+  text-align:center;
+  border:1px solid blue;
+  color:white;
+  width:100%;
+}
+.news{
+     font-size:15px;
+     margin-top:10px;
+      padding:15px 5px;
+}
+/* style of request begins here*/
+.request{
+ background-image:url("bootstrap/kdd/8.jpeg");
+}
+.request1{
+  color:lightblue;
+  text-align:center;
+  font-size:50px;
+}
+.request2{
+     display:grid;
+  grid-gap:10px;
+}
+.mainRequest{
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 20px 10px;
+    display: inline-block;
+    border: 1px solid yellow;
+    border: 4px;
+    box-sizing: border-box;
+}
+input[type=Date]{
+    width: 100%;
+    padding: 20px 10px;
+    display: inline-block;
+    border: 1px solid yellow;
+    border: 4px;
+    box-sizing: border-box;
+}
+input[type=number]{
+    width: 100%;
+    padding: 20px 10px;
+    display: inline-block;
+    border: 1px solid yellow;
+    border: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 20px 10px;
+    display: inline-block;
+    border: 1px solid yellow;
+    border: 4px;
+    box-sizing: border-box;
+}
+input[type=gender]{
+    width: 100%;
+    padding: 20px 10px;
+    display: inline-block;
+    border: 1px solid yellow;
+    border: 4px;
+    box-sizing: border-box;
+}
+/*.main{
+    background-color:red;
+}*/
+
+.muda{
+  display:grid;
+  grid-gap:25px;
+  grid-template-columns:auto auto;
+  line-height:1.9;
+}
+.footer{
+  background-color:red;
+  color:white;
+}
+
+.footers {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+     padding: 5px;
+}
+
+.navbar {
+   margin-bottom:0px;
+   margin:0px 0px 0px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+body{
+  overflow-x: none;
+}

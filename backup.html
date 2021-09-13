@@ -1,0 +1,37 @@
+<?php
+
+	if(isset($_POST['submit'])){
+		$product_id = $_POST['product_id'];
+		$market_price = $_POST['market_price'];
+        $date = $_POST['date'];
+        $image = $_POST['image'];
+   
+
+      
+
+
+		$con = mysqli_connect('localhost', 'root', '', 'nvog_ekoga');
+
+		// make a query
+		mysqli_query($con, "INSERT INTO sales (market_price, date, product_id, image)VALUES('$market_price', '$date', '$product_id', $image)");
+		if(mysqli_error($con)) die ("Unsuccessful");
+		else die("the acction was done successfully!");
+
+	}else{
+
+	}
+?>
+<?php session_start(); 
+
+$con = mysqli_connect('localhost', 'root', '', 'nvog_ekoga');
+
+$q = "SELECT * FROM product where quantity > 0";
+$result = mysqli_query($con, $q) or die('Something went wrong!');
+
+?>
+
+       Items name:<select id="text" name="Iname" value="name" required="" />
+
+			<?php while($product = $result->fetch_assoc()){ 
+			echo("<option value='".$product['id']."'>".$product['name']."</option>");
+				}?>
